@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #88460cbd, #10439be2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background: linear-gradient(to right, #10439be2, #88460cbd);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.logo {
+    width: 600px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.s ease;
+    font-size: 16px;
+    margin-bottom: 0.4cm;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 168);
+    transform: translateY(-2px);
+}
+
+#response {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: left;
+    white-space: pre-wrap; /* Preserve whitespace formatting */
+    font-size: 16px;
+    color: #333;
+}
+.placeholder1{
+    color: #000000;
+    font-weight:bolder
+}
